@@ -1,0 +1,20 @@
+@font-face{
+    font-family: "f1";
+    src: url('../../../others/fonts/f1.ttf');
+}
+.play_wrapper{ 
+    border: 1px solid red;
+    height: fit-content;
+    width: fit-content;
+    border-radius: 10px;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 60px;
+    font-family: 'f1',Arial,sans-serif;
+    color: sienna;
+}
+.play_wrapper > span{ 
+    user-select: none;
+    padding: 10px;
+}

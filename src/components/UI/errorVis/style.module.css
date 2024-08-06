@@ -1,0 +1,56 @@
+@font-face{
+    font-family: "f1";
+    src: url('../../others/fonts/f1.ttf');
+}
+.error_wrapper{ 
+    width: 40vw;
+    height: 20vh;
+}
+.error_conteiner{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.error_layout{ 
+    height: 60%;
+    width: 15%;
+    border-radius: 50%;
+    border: 2px solid gray;
+    margin: 10px;
+    overflow: hidden;
+}
+.error_layout img{ 
+    height: 100%;
+    width: 100%;
+}
+.visibilityBlock{ 
+    display: block;
+}
+.visibilityNone{ 
+    display: none;
+}
+
+.modal_error_wrapper{ 
+    display: grid;
+    place-items: center;
+    font-size: 60px;
+    font-family: 'f1',Arial,sans-serif;
+    position: absolute;
+    height: 100vh;
+    background-color: rgba(128, 128, 128, 0.584);
+    backdrop-filter: blur(3px);
+    z-index: 99999;
+    width: 100%;
+    text-align: center;
+}
+.modal_error_wrapper span{ 
+    color: rgba(0, 0, 0, 0.596);
+    font-size: 50px;
+    cursor: pointer;
+    transition: 400ms;
+}
+.modal_error_wrapper span:hover{ 
+    color: rgb(0, 0, 0);
+}
