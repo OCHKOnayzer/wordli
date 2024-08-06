@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+Конечно! Вот пример текста для файла `README.md`, который вы можете использовать для описания вашего проекта игры "Wordli" или "Виселица на минималках":
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+# Wordli
 
-In the project directory, you can run:
+**Wordli** — это увлекательная и простая игра, вдохновлённая классической "Виселицей", но с минималистичным и современным подходом. В этой игре вам предстоит угадывать слово по буквам, и каждое неправильное предположение приближает вас к проигрышу. Это отличный способ проверить свои навыки в угадывании слов и попрактиковаться в правописании!
 
-### `npm start`
+## Как играть
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. **Запустите игру**: После запуска вы увидите на первый взгял набор букв и пустое место над ними это места для букв слова, которое нужно угадать.
+2. **Вводите буквы**: Введите букву, которую, по вашему мнению, может содержать слово.
+3. **Получайте подсказки**: Если ваш счет кратен 3 вы получите одну подсказку.
+4. **Угадайте слово**: Ваше задание — угадать слово, прежде чем ваши попытки исчерпаны.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Установка
 
-### `npm test`
+Для запуска проекта на вашем компьютере выполните следующие шаги:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. **Клонируйте репозиторий**:
+   ```bash
+   git clone https://github.com/OCHKOnayzer/wordli.git
+   ```
 
-### `npm run build`
+2. **Перейдите в директорию проекта**:
+   ```bash
+   cd wordli
+   ```
+3. **Запустите проект**:
+   ```bash
+   npm start
+   ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Использование
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+После запуска игра автоматически начнётся, и вы сможете приступить к угадыванию слов.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Состояние проекта
 
-### `npm run eject`
+Проект находится в активной разработке. Мы постоянно добавляем новые функции и улучшаем пользовательский опыт. Пожалуйста, следите за обновлениями и дайте нам знать, если у вас есть предложения или замечания.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Контрибьюция
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Если вы хотите внести свой вклад в проект, пожалуйста, создайте форк репозитория и отправьте запрос на объединение с вашими изменениями. Мы приветствуем любую помощь и идеи!
